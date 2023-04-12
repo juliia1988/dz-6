@@ -12,7 +12,7 @@ public class Main {
         System.out.println(sum1);
         System.out.println(sum2);
 
-        System.out.println(sum1>sum2 ? "True": "False");
+        System.out.println(sum1 > sum2);
 
         sum1 += 1;
         sum2 -= 2;
@@ -20,12 +20,12 @@ public class Main {
         System.out.println(sum1);
         System.out.println(sum2);
 
-        System.out.println(sum1>sum2 ? "True": "False");
+        System.out.println(sum1 > sum2 ? "True" : "False");
 
-        System.out.println(sum1%2 < 1  || sum2%2 < 1 ? "True": "False");
+        System.out.println(sum1 % 2 < 1 || sum2 % 2 < 1 ? "True" : "False");
 
-        System.out.println(sum1%2);
-        System.out.println(sum2%2);
+        System.out.println(sum1 % 2);
+        System.out.println(sum2 % 2);
 
     }
 }
