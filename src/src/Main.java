@@ -20,7 +20,7 @@ public class Main {
         System.out.println(sum1);
         System.out.println(sum2);
 
-        System.out.println(sum1 > sumgio2 ? "True" : "False");
+        System.out.println(sum1 > sum2);
 
         System.out.println(sum1 % 2 < 1 || sum2 % 2 < 1 ? "True" : "False");
 
